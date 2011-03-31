@@ -1,5 +1,5 @@
 /*
- * Created by: Yarrith Devos, Vladimir Popovich
+ * Created by: Yarrith Devos, Vladimir Popovic
  * Date: 01/12/2010
  */
 using System;
