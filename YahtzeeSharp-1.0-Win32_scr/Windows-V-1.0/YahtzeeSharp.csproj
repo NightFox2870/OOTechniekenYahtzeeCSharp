@@ -1,0 +1,162 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{93CB2FCF-EB45-44B6-A283-2AA4B3B5AE0C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>YahtzeeSharp</RootNamespace>
+    <AssemblyName>YahtzeeSharp</AssemblyName>
+    <StartupObject>YahtzeeSharp.MainForm</StartupObject>
+    <ApplicationIcon>Resources\LogoIcons\YSlogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="csPosScore.cs" />
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAboutHelper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAboutHelper.Designer.cs">
+      <DependentUpon>frmAboutHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmError.designer.cs" />
+    <Compile Include="frmFinish.cs" />
+    <Compile Include="frmFinish.Designer.cs">
+      <DependentUpon>frmFinish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpen.Designer.cs">
+      <DependentUpon>frmOpen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAboutHelper.resx">
+      <DependentUpon>frmAboutHelper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmError.resx">
+      <DependentUpon>frmError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinish.resx">
+      <DependentUpon>frmFinish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpen.resx">
+      <DependentUpon>frmOpen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Resources\GameBoard-Images\3oak.png" />
+    <None Include="Resources\GameBoard-Images\4oak.png" />
+    <None Include="Resources\GameBoard-Images\Aces.png" />
+    <None Include="Resources\GameBoard-Images\arrow.png" />
+    <None Include="Resources\GameBoard-Images\c10.png" />
+    <None Include="Resources\GameBoard-Images\c11.png" />
+    <None Include="Resources\GameBoard-Images\c1r2.png" />
+    <None Include="Resources\GameBoard-Images\c2r2.png" />
+    <None Include="Resources\GameBoard-Images\c3r2.png" />
+    <None Include="Resources\GameBoard-Images\c4r2.png" />
+    <None Include="Resources\GameBoard-Images\c5r2.png" />
+    <None Include="Resources\GameBoard-Images\c8.png" />
+    <None Include="Resources\GameBoard-Images\c9.png" />
+    <None Include="Resources\GameBoard-Images\chance.png" />
+    <None Include="Resources\GameBoard-Images\checkbonus.png" />
+    <None Include="Resources\GameBoard-Images\checkbonus2.png" />
+    <None Include="Resources\GameBoard-Images\d1.png" />
+    <None Include="Resources\GameBoard-Images\dd1.png" />
+    <None Include="Resources\GameBoard-Images\dd2.png" />
+    <None Include="Resources\GameBoard-Images\dd3.png" />
+    <None Include="Resources\GameBoard-Images\dd4.png" />
+    <None Include="Resources\GameBoard-Images\dd5.png" />
+    <None Include="Resources\GameBoard-Images\dd6.png" />
+    <None Include="Resources\GameBoard-Images\Fives.png" />
+    <None Include="Resources\GameBoard-Images\Fours.png" />
+    <None Include="Resources\GameBoard-Images\GT.png" />
+    <None Include="Resources\GameBoard-Images\h1.png" />
+    <None Include="Resources\GameBoard-Images\h2.png" />
+    <None Include="Resources\GameBoard-Images\h3.png" />
+    <None Include="Resources\GameBoard-Images\h4.png" />
+    <None Include="Resources\GameBoard-Images\h5.png" />
+    <None Include="Resources\GameBoard-Images\h6.png" />
+    <None Include="Resources\GameBoard-Images\h7.png" />
+    <None Include="Resources\GameBoard-Images\Image1.png" />
+    <None Include="Resources\GameBoard-Images\ls.png" />
+    <None Include="Resources\GameBoard-Images\ph.png" />
+    <None Include="Resources\GameBoard-Images\SCORE.png" />
+    <None Include="Resources\GameBoard-Images\SCORE1.png" />
+    <None Include="Resources\GameBoard-Images\SCORE2.png" />
+    <None Include="Resources\GameBoard-Images\Sixes.png" />
+    <None Include="Resources\GameBoard-Images\ss.png" />
+    <None Include="Resources\GameBoard-Images\Threes.png" />
+    <None Include="Resources\GameBoard-Images\Thumbs.db" />
+    <None Include="Resources\GameBoard-Images\totalLower.png" />
+    <None Include="Resources\GameBoard-Images\totalUpper.png" />
+    <None Include="Resources\GameBoard-Images\Twos.png" />
+    <None Include="Resources\GameBoard-Images\ytz.png" />
+    <None Include="Resources\GameBoard-Images\ytzBONUS.png" />
+    <None Include="Resources\GameBoard-Images\ytzBONUStext.png" />
+    <None Include="Resources\LogoIcons\Logo.png" />
+    <None Include="Resources\LogoIcons\Thumbs.db" />
+    <None Include="Resources\LogoIcons\YSlogo-Small.png" />
+    <None Include="Resources\LogoIcons\YSlogo.png" />
+    <None Include="Resources\ToolBar\exit.png" />
+    <None Include="Resources\ToolBar\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources" />
+    <Folder Include="Resources\GameBoard-Images" />
+    <Folder Include="Resources\LogoIcons" />
+    <Folder Include="Resources\ToolBar" />
+  </ItemGroup>
+</Project>

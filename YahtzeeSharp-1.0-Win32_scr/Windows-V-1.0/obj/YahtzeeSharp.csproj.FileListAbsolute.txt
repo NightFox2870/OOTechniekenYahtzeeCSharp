@@ -1,0 +1,13 @@
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\bin\Debug\YahtzeeSharp.exe
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\bin\Debug\YahtzeeSharp.pdb
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\YahtzeeSharp.frmAbout.resources
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\YahtzeeSharp.frmAboutHelper.resources
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\EmailError.frmError.resources
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\YahtzeeSharp.frmFinish.resources
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\YahtzeeSharp.frmOpen.resources
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\YahtzeeSharp.MainForm.resources
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\YahtzeeSharp.Properties.Resources.resources
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\YahtzeeSharp.csproj.GenerateResource.Cache
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\YahtzeeSharp.exe
+C:\Documents and Settings\Andy\My Documents\SharpDevelop Projects\YahtzeeSharp\Windows-V-1.0\obj\Debug\YahtzeeSharp.pdb

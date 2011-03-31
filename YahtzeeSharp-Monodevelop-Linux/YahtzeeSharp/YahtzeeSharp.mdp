@@ -1,0 +1,113 @@
+<Project name="YahtzeeSharp" fileversion="2.0" language="C#" clr-version="Net_2_0" defaultDeployTarget="Directory" ctype="DotNetProject">
+  <Configurations active="Release">
+    <Configuration name="Debug" ctype="DotNetProjectConfiguration">
+      <Output directory="bin/Debug" assembly="YahtzeeSharp" />
+      <Build debugmode="True" target="Exe" />
+      <Execution runwithwarnings="True" consolepause="True" runtime="MsNet" clr-version="Net_2_0" />
+      <CodeGeneration compiler="Csc" warninglevel="4" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" generatexmldocumentation="True" ctype="CSharpCompilerParameters" />
+    </Configuration>
+    <Configuration name="Release" ctype="DotNetProjectConfiguration">
+      <Output directory="bin/Release" assemblyKeyFile="." assembly="YahtzeeSharp" />
+      <Build debugmode="False" target="Exe" />
+      <Execution runwithwarnings="True" consolepause="True" runtime="MsNet" clr-version="Net_2_0" />
+      <CodeGeneration compiler="Csc" warninglevel="4" optimize="False" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" generatexmldocumentation="True" win32Icon="." ctype="CSharpCompilerParameters" />
+    </Configuration>
+  </Configurations>
+  <Contents>
+    <File name="AssemblyInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name="gtk-gui/gui.stetic" subtype="Code" buildaction="Exclude" />
+    <File name="gtk-gui/generated.cs" subtype="Code" buildaction="Compile" />
+    <File name="frmMain.cs" subtype="Code" buildaction="Compile" />
+    <File name="frmAbout.cs" subtype="Code" buildaction="Compile" />
+    <File name="Main.cs" subtype="Code" buildaction="Compile" />
+    <File name="gtk-gui/objects.xml" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/Logo.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/h1.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/h2.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/h3.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/h4.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/h5.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/h6.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/h7.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/dd1.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/dd2.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/dd3.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/dd4.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/dd5.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/dd6.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/totalUpper.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/c8.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/c9.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/Aces.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/Fives.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/Fours.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/Sixes.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/Threes.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/Twos.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/arrow_temp.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/SCORE2.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/3oak.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/4oak.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/chance.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/GT.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/ss.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/c1r2.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/c2r2.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/c3r2.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/c4r2.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/c5r2.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/ph.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/ytz.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/ytzBONUS.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/ls.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/totalLower.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/c11.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/tmpImages/ytzBONUStext.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="csPosScore.cs" subtype="Code" buildaction="Compile" />
+    <File name="frmError.cs" subtype="Code" buildaction="Compile" />
+    <File name="work-files/dice1.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/dice2.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/dice3.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/dice4.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/dice5.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="work-files/dice6.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="frmAboutHelper.cs" subtype="Code" buildaction="Compile" />
+    <File name="dlgOpen.cs" subtype="Code" buildaction="Compile" />
+    <File name="work-files/YSlogo.png" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="gtk-gui/YahtzeeSharp.frmMain.cs" subtype="Code" buildaction="Compile" />
+    <File name="gtk-gui/YahtzeeSharp.frmError.cs" subtype="Code" buildaction="Compile" />
+    <File name="gtk-gui/YahtzeeSharp.frmAbout.cs" subtype="Code" buildaction="Compile" />
+    <File name="gtk-gui/YahtzeeSharp.frmAboutHelper.cs" subtype="Code" buildaction="Compile" />
+    <File name="gtk-gui/YahtzeeSharp.dlgOpen.cs" subtype="Code" buildaction="Compile" />
+    <File name="dlgFinished.cs" subtype="Code" buildaction="Compile" />
+    <File name="gtk-gui/YahtzeeSharp.dlgFinished.cs" subtype="Code" buildaction="Compile" />
+    <File name="work-files/tmpImages/taz.gif" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="bin/Debug" subtype="Directory" buildaction="Compile" />
+  </Contents>
+  <References>
+    <ProjectReference type="Gac" localcopy="True" refto="gtk-sharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <ProjectReference type="Gac" localcopy="True" refto="gdk-sharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <ProjectReference type="Gac" localcopy="True" refto="gtk-dotnet, Version=2.8.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <ProjectReference type="Gac" localcopy="True" refto="System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <ProjectReference type="Gac" localcopy="True" refto="pango-sharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="glib-sharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <ProjectReference type="Gac" localcopy="True" refto="Mono.Posix, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <ProjectReference type="Gac" localcopy="True" refto="System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </References>
+  <GtkDesignInfo isWidgetLibrary="True" gtkVersion="2.8.4">
+    <ExportedWidgets>
+      <Widget>YahtzeeSharp.xmlGrid</Widget>
+      <Widget>YahtzeeSharp.wdtScore</Widget>
+    </ExportedWidgets>
+  </GtkDesignInfo>
+  <MonoDevelop.ChangeLogAddIn.ChangeLogInfo policy="NoChangeLog" />
+  <DeployTargets>
+    <DeployTarget Handler="MonoDevelop.DirectoryDeploy" Name="Directory" ctype="DirectoryDeployTarget">
+      <Copier Handler="MonoDevelop.LocalFileCopyHandler" TargetDirectory="/home/andy/test deploy/YahtzeeSharp" ctype="LocalFileCopyConfiguration" />
+    </DeployTarget>
+  </DeployTargets>
+</Project>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>/home/yarrith/Documenten/Projects/Project Yahtzee/YahtzeeSharp-Monodevelop-Linux/YahtzeeSharp/bin/Debug/YahtzeeSharp</name>
+    </assembly>
+    <members>
+        <member name="T:YahtzeeSharp.csPosScore">
+            <summary>
+            Description of csPosScore.
+            </summary>
+        </member>
+        <member name="M:YahtzeeSharp.csPosScore.#ctor(System.Int32[],System.Boolean)">
+            <summary>
+            set up the layout of the dice
+            </summary>
+        </member>
+        <member name="M:YahtzeeSharp.csPosScore.SetReturnOptions">
+            <summary>
+            cacluates the values that will be usable to select from
+            based on the roll
+            </summary>
+            <returns>
+            A <see cref="T:Gtk.ListStore" /></returns>
+        </member>
+        <member name="T:YahtzeeSharp.dlgOpen">
+            <summary>
+            Dialog to manged and open games
+            </summary>
+        </member>
+        <member name="M:YahtzeeSharp.dlgOpen.#ctor">
+            <summary>
+            the main function for the open game dialog
+            also set up the treeview and its elements
+            </summary>
+        </member>
+        <member name="M:YahtzeeSharp.dlgOpen.OnBtnDeleteClicked(System.Object,System.EventArgs)">
+            <summary>
+            a function to delete a game from the game data grid
+            </summary>
+        </member>
+        <member name="M:YahtzeeSharp.dlgOpen.OnBtnOpenClicked(System.Object,System.EventArgs)">
+            <summary>
+            Set the game we are looking to open returns the values needed to open a game
+            and destoys the existing form.
+            </summary>
+        </member>
+    </members>
+</doc>

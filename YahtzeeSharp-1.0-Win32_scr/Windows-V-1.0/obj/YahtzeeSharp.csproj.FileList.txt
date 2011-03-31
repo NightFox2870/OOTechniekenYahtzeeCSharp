@@ -1,0 +1,13 @@
+bin\Debug\YahtzeeSharp.exe
+bin\Debug\YahtzeeSharp.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\YahtzeeSharp.frmAbout.resources
+obj\Debug\YahtzeeSharp.frmAboutHelper.resources
+obj\Debug\EmailError.frmError.resources
+obj\Debug\YahtzeeSharp.frmFinish.resources
+obj\Debug\YahtzeeSharp.frmOpen.resources
+obj\Debug\YahtzeeSharp.MainForm.resources
+obj\Debug\YahtzeeSharp.Properties.Resources.resources
+obj\Debug\YahtzeeSharp.csproj.GenerateResource.Cache
+obj\Debug\YahtzeeSharp.exe
+obj\Debug\YahtzeeSharp.pdb

@@ -1,0 +1,17 @@
+<Combine name="YahtzeeSharp" fileversion="2.0">
+  <Configurations active="Release">
+    <Configuration name="Debug" ctype="CombineConfiguration">
+      <Entry build="True" name="YahtzeeSharp" configuration="Debug" />
+    </Configuration>
+    <Configuration name="Release" ctype="CombineConfiguration">
+      <Entry build="True" name="YahtzeeSharp" configuration="Release" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="YahtzeeSharp" single="True">
+    <Execute type="None" entry="YahtzeeSharp" />
+  </StartMode>
+  <MonoDevelop.ChangeLogAddIn.ChangeLogInfo policy="NoChangeLog" />
+  <Entries>
+    <Entry filename="YahtzeeSharp/YahtzeeSharp.mdp" />
+  </Entries>
+</Combine>
